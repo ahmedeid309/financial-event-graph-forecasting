@@ -1,0 +1,28 @@
+# Python 3.12.13. These are the versions with which every result was produced.
+#
+# PyTorch with CUDA 11.8 wheels:
+#   pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+# llama-cpp-python compiled with CUDA:
+#   CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python==0.3.23
+torch==2.7.1
+torch-geometric==2.8.0
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.7.2
+networkx==3.6.1
+transformers==5.7.0
+sentence-transformers==5.4.1
+llama-cpp-python==0.3.23
+tqdm==4.67.3
+matplotlib==3.10.9
+
+# Imported by upstream TimeXer at start-up (its model registry imports every model)
+einops==0.8.2
+reformer-pytorch==1.4.4
+sktime==0.40.1
+patool==4.0.4
+sympy==1.14.0
+
+# Tests
+pytest
